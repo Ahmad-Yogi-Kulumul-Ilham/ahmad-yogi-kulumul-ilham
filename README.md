@@ -31,7 +31,7 @@
 # ░▒▓█ ⚡ TECH STACK █▓▒░
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=php,python,js,ts,dart,flutter,go,nodejs,express,laravel,fastapi,react,nextjs,vue,tailwind,postgres,mysql,sqlite,docker,git,github,vscode,linux" />
+<img src="https://skillicons.dev/icons?i=php,python,js,ts,dart,flutter,go,nodejs,express,laravel,fastapi,react,nextjs,vue,tailwind,postgres,mysql,sqlite,docker,git,github,githubactions,vscode,linux" />
 </p>
 
 ---
@@ -105,6 +105,8 @@
 <img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=2496ED"/>
 
 <img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=F05032"/>
+
+<img src="https://img.shields.io/badge/CI%2FCD-111111?style=for-the-badge&logo=githubactions&logoColor=2088FF"/>
 
 </p>
 
