@@ -34,26 +34,6 @@
 <img src="https://skillicons.dev/icons?i=php,python,js,ts,dart,flutter,go,nodejs,express,laravel,fastapi,react,nextjs,vue,tailwind,postgres,mysql,sqlite,docker,git,github,githubactions,vscode,linux" />
 </p>
 
-<p align="center">
-<b>Languages</b><br/>
-<img src="https://img.shields.io/badge/PHP-111111?style=for-the-badge&logo=php&logoColor=8892BF"/> <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=FFD43B"/> <img src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/> <img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=3178C6"/> <img src="https://img.shields.io/badge/DART-111111?style=for-the-badge&logo=dart&logoColor=0175C2"/> <img src="https://img.shields.io/badge/GO-111111?style=for-the-badge&logo=go&logoColor=00ADD8"/>
-</p>
-
-<p align="center">
-<b>Backend &amp; Frameworks</b><br/>
-<img src="https://img.shields.io/badge/Laravel-111111?style=for-the-badge&logo=laravel&logoColor=FF2D20"/> <img src="https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=node.js&logoColor=339933"/> <img src="https://img.shields.io/badge/Express.js-111111?style=for-the-badge&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=009688"/> <img src="https://img.shields.io/badge/Goravel-111111?style=for-the-badge&logo=go&logoColor=00ADD8"/>
-</p>
-
-<p align="center">
-<b>Frontend</b><br/>
-<img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=next.js&logoColor=white"/> <img src="https://img.shields.io/badge/Vue.js-111111?style=for-the-badge&logo=vue.js&logoColor=4FC08D"/> <img src="https://img.shields.io/badge/TailwindCSS-111111?style=for-the-badge&logo=tailwind-css&logoColor=38BDF8"/> <img src="https://img.shields.io/badge/Flutter-111111?style=for-the-badge&logo=flutter&logoColor=02569B"/>
-</p>
-
-<p align="center">
-<b>Database &amp; Tools</b><br/>
-<img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=336791"/> <img src="https://img.shields.io/badge/MySQL-111111?style=for-the-badge&logo=mysql&logoColor=F29111"/> <img src="https://img.shields.io/badge/SQLite-111111?style=for-the-badge&logo=sqlite&logoColor=003B57"/> <img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=2496ED"/> <img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=F05032"/> <img src="https://img.shields.io/badge/CI%2FCD-111111?style=for-the-badge&logo=githubactions&logoColor=2088FF"/>
-</p>
-
 ---
 
 # ░▒▓█ 📊 GITHUB ANALYTICS █▓▒░
