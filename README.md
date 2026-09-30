@@ -1,17 +1,7 @@
 <h1 align="center">Ahmad Yogi Kulumul Ilham</h1>
 
 <p align="center">
-  <strong>Software Engineer | Fullstack Developer | AI Automation Engineer</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/yogicodee">
-    github.com/yogicodee
-  </a>
-</p>
-
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=18&pause=1000&color=00FFAA&center=true&vCenter=true&width=1200&lines=AHMAD+YOGI+KULUMUL+ILHAM;FULLSTACK+DEVELOPER;AI+AUTOMATION+ENGINEER;COMPUTER+VISION+RESEARCHER" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=18&pause=1000&color=00FFAA&center=true&vCenter=true&width=1200&lines=FULLSTACK+DEVELOPER;AI+AUTOMATION+ENGINEER;COMPUTER+VISION+RESEARCHER" />
 </p>
 
 <p align="center">
