@@ -68,7 +68,7 @@
 
 <img src="https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=009688"/>
 
-<img src="https://img.shields.io/badge/Golang-111111?style=for-the-badge&logo=go&logoColor=00ADD8"/>
+<img src="https://img.shields.io/badge/Goravel-111111?style=for-the-badge&logo=go&logoColor=00ADD8"/>
 
 </p>
 
