@@ -1,7 +1,7 @@
 <h1 align="center">Ahmad Yogi Kulumul Ilham</h1>
 
 <p align="center">
-  <img src="./system-banner-final.svg" width="100%" />
+  <img src="./system-banner-final.svg" width="100%" alt="Fullstack Developer • AI Automation Engineer • Computer Vision Researcher" />
 </p>
 
 # ░▒▓█ 🚀 SYSTEM PROFILE █▓▒░
