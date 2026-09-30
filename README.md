@@ -77,26 +77,6 @@
 
 ---
 
-# ░▒▓█ 📡 CONNECT WITH ME █▓▒░
-
-<p align="center">
-
-<a href="https://linkedin.com/in/ahmad-yogi">
-<img src="https://img.shields.io/badge/LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/>
-</a>
-
-<a href="mailto:yogiilham003@gmail.com">
-<img src="https://img.shields.io/badge/GMAIL-111111?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
-</a>
-
-<a href="https://t.me/ayki12">
-<img src="https://img.shields.io/badge/TELEGRAM-111111?style=for-the-badge&logo=telegram&logoColor=26A5E4"/>
-</a>
-
-</p>
-
----
-
 # ░▒▓█ 👾 CONTRIBUTION GRAPH █▓▒░
 
 <p align="center">
@@ -106,17 +86,6 @@
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/yogicodee/yogicodee/output/pacman-contribution-graph.svg">
 </picture>
 </p>
-
----
-
-# ░▒▓█ 🎯 MOTTO █▓▒░
-
-```txt
-"Building scalable systems,
-solving real problems,
-and continuously learning
-through technology."
-```
 
 ---
 
