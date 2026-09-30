@@ -31,7 +31,7 @@
 # ░▒▓█ ⚡ TECH STACK █▓▒░
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=php,python,js,ts,dart,flutter,nodejs,express,laravel,fastapi,react,nextjs,tailwind,postgres,mysql,sqlite,docker,git,github,vscode,linux" />
+<img src="https://skillicons.dev/icons?i=php,python,js,ts,dart,flutter,go,nodejs,express,laravel,fastapi,react,nextjs,vue,tailwind,postgres,mysql,sqlite,docker,git,github,vscode,linux" />
 </p>
 
 ---
@@ -66,6 +66,8 @@
 
 <img src="https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=009688"/>
 
+<img src="https://img.shields.io/badge/Golang-111111?style=for-the-badge&logo=go&logoColor=00ADD8"/>
+
 </p>
 
 ---
@@ -77,6 +79,8 @@
 <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 
 <img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=next.js&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Vue.js-111111?style=for-the-badge&logo=vue.js&logoColor=4FC08D"/>
 
 <img src="https://img.shields.io/badge/TailwindCSS-111111?style=for-the-badge&logo=tailwind-css&logoColor=38BDF8"/>
 
