@@ -1,0 +1,106 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Active projects: Smart POS System, AI Automation Dashboard, REST API Backend Services, YOLO Computer Vision Research, Fullstack Admin Dashboard, Inventory and Warehouse Systems, AI Integration Projects">
+  <title>Active Projects — Object Detection</title>
+  <defs>
+    <linearGradient id="pjbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0f0a"/>
+      <stop offset="55%" stop-color="#2a1612"/>
+      <stop offset="100%" stop-color="#120b10"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff9f1c" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ff9f1c" stop-opacity="0.35"/>
+    </linearGradient>
+    <pattern id="pjgrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#ff9f1c" stroke-opacity="0.05"/>
+    </pattern>
+    <clipPath id="pjclip"><rect width="1200" height="400" rx="16"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="400" rx="16" fill="url(#pjbg)"/>
+  <rect width="1200" height="400" rx="16" fill="url(#pjgrid)"/>
+
+  <path d="M16 0 H1184 A16 16 0 0 1 1200 16 V44 H0 V16 A16 16 0 0 1 16 0 Z" fill="#ff9f1c" fill-opacity="0.1"/>
+  <circle cx="28" cy="22" r="6" fill="#ff5f56"/><circle cx="48" cy="22" r="6" fill="#ffbd2e"/><circle cx="68" cy="22" r="6" fill="#27c93f"/>
+  <text x="600" y="27" text-anchor="middle" font-family="monospace" font-size="13" fill="#d9b99b">yolo_detect.py — source: ./projects</text>
+  <g font-family="monospace" font-size="12" font-weight="bold" fill="#ff4d4d">
+    <circle cx="1128" cy="22" r="5"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+    <text x="1140" y="26">LIVE</text>
+  </g>
+
+  <!-- Detections -->
+  <g font-family="monospace">
+    <!-- 01 -->
+    <g>
+      <rect x="44" y="80" width="263" height="110" fill="#ff9f1c" fill-opacity="0.06" stroke="#ff9f1c" stroke-width="2"/>
+      <rect x="44" y="58" width="160" height="22" fill="#ff9f1c"/>
+      <text x="52" y="74" font-size="12" font-weight="bold" fill="#1a0f0a">project_01 · active</text>
+      <text x="175" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">Smart POS</text>
+      <text x="175" y="156" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">System</text>
+    </g>
+    <!-- 02 -->
+    <g>
+      <rect x="327" y="80" width="263" height="110" fill="#ff4d8d" fill-opacity="0.06" stroke="#ff4d8d" stroke-width="2"/>
+      <rect x="327" y="58" width="160" height="22" fill="#ff4d8d"/>
+      <text x="335" y="74" font-size="12" font-weight="bold" fill="#1a0f0a">project_02 · active</text>
+      <text x="458" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">AI Automation</text>
+      <text x="458" y="156" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">Dashboard</text>
+    </g>
+    <!-- 03 -->
+    <g>
+      <rect x="610" y="80" width="263" height="110" fill="#22d3ee" fill-opacity="0.06" stroke="#22d3ee" stroke-width="2"/>
+      <rect x="610" y="58" width="160" height="22" fill="#22d3ee"/>
+      <text x="618" y="74" font-size="12" font-weight="bold" fill="#1a0f0a">project_03 · active</text>
+      <text x="741" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">REST API</text>
+      <text x="741" y="156" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">Backend Services</text>
+    </g>
+    <!-- 04 -->
+    <g>
+      <rect x="893" y="80" width="263" height="110" fill="#00ffaa" fill-opacity="0.06" stroke="#00ffaa" stroke-width="2"/>
+      <rect x="893" y="58" width="160" height="22" fill="#00ffaa"/>
+      <text x="901" y="74" font-size="12" font-weight="bold" fill="#1a0f0a">project_04 · active</text>
+      <text x="1024" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">YOLO Computer</text>
+      <text x="1024" y="156" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">Vision Research</text>
+    </g>
+    <!-- 05 -->
+    <g>
+      <rect x="186" y="225" width="263" height="110" fill="#a78bfa" fill-opacity="0.06" stroke="#a78bfa" stroke-width="2"/>
+      <rect x="186" y="203" width="160" height="22" fill="#a78bfa"/>
+      <text x="194" y="219" font-size="12" font-weight="bold" fill="#1a0f0a">project_05 · active</text>
+      <text x="317" y="275" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">Fullstack Admin</text>
+      <text x="317" y="301" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">Dashboard</text>
+    </g>
+    <!-- 06 -->
+    <g>
+      <rect x="469" y="225" width="263" height="110" fill="#fde047" fill-opacity="0.06" stroke="#fde047" stroke-width="2"/>
+      <rect x="469" y="203" width="160" height="22" fill="#fde047"/>
+      <text x="477" y="219" font-size="12" font-weight="bold" fill="#1a0f0a">project_06 · active</text>
+      <text x="600" y="275" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">Inventory &amp;</text>
+      <text x="600" y="301" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">Warehouse Systems</text>
+    </g>
+    <!-- 07 -->
+    <g>
+      <rect x="752" y="225" width="263" height="110" fill="#60a5fa" fill-opacity="0.06" stroke="#60a5fa" stroke-width="2"/>
+      <rect x="752" y="203" width="160" height="22" fill="#60a5fa"/>
+      <text x="760" y="219" font-size="12" font-weight="bold" fill="#1a0f0a">project_07 · active</text>
+      <text x="883" y="275" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">AI Integration</text>
+      <text x="883" y="301" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff4e6">Projects</text>
+    </g>
+  </g>
+
+  <!-- Scanner sweep -->
+  <g clip-path="url(#pjclip)">
+    <g>
+      <rect x="0" y="-40" width="1200" height="40" fill="url(#scan)"/>
+      <rect x="0" y="-2" width="1200" height="2" fill="#ff9f1c" opacity="0.8"/>
+      <animateTransform attributeName="transform" type="translate" values="0 50;0 350;0 50" dur="5s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g font-family="monospace" font-size="14">
+    <text x="44" y="374" fill="#00ffaa">✓ inference complete <tspan fill="#d9b99b">— 7 active projects detected</tspan></text>
+    <text x="1156" y="374" text-anchor="end" fill="#d9b99b">classes: backend · ai · fullstack</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="16" fill="none" stroke="#ff9f1c" stroke-opacity="0.25"/>
+</svg>

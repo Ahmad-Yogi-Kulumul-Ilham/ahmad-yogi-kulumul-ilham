@@ -1,0 +1,89 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Core expertise: Backend Architecture, REST API Development, Fullstack Web Applications, Database Optimization, AI and Computer Vision Systems, Production-Ready Engineering, Scalable Backend Infrastructure, Clean Architecture Pattern">
+  <title>Core Expertise — Model Training</title>
+  <defs>
+    <linearGradient id="cbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06141f"/>
+      <stop offset="55%" stop-color="#0c2233"/>
+      <stop offset="100%" stop-color="#071019"/>
+    </linearGradient>
+    <linearGradient id="cfill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#00ffaa"/>
+    </linearGradient>
+    <pattern id="cgrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#22d3ee" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="cglow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="400" rx="16" fill="url(#cbg)"/>
+  <rect width="1200" height="400" rx="16" fill="url(#cgrid)"/>
+
+  <path d="M16 0 H1184 A16 16 0 0 1 1200 16 V44 H0 V16 A16 16 0 0 1 16 0 Z" fill="#22d3ee" fill-opacity="0.1"/>
+  <circle cx="28" cy="22" r="6" fill="#ff5f56"/><circle cx="48" cy="22" r="6" fill="#ffbd2e"/><circle cx="68" cy="22" r="6" fill="#27c93f"/>
+  <text x="600" y="27" text-anchor="middle" font-family="monospace" font-size="13" fill="#8fb8c9">training.log — skill_model.fit(epochs=8)</text>
+
+  <!-- Header -->
+  <g font-family="monospace">
+    <text x="44" y="86" font-size="19" font-weight="bold" fill="#22d3ee">Epoch 8/8 <tspan fill="#00ffaa">━━━━━━━━━━━━━━━━━━━━</tspan> <tspan fill="#e6e9f5">100%</tspan></text>
+    <text x="44" y="114" font-size="14" fill="#8fb8c9">skills: 8/8 · accuracy: 1.00 · status: <tspan fill="#00ffaa">converged ✓</tspan></text>
+  </g>
+
+  <!-- Loss curve -->
+  <g transform="translate(860 58)">
+    <path d="M0 0 V66 H290" fill="none" stroke="#8fb8c9" stroke-opacity="0.4"/>
+    <path d="M4 6 C 40 50, 90 58, 150 61 S 250 63, 288 63" fill="none" stroke="#22d3ee" stroke-width="2.5" filter="url(#cglow)" stroke-dasharray="320" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="320;0" dur="2.5s" fill="freeze"/>
+    </path>
+    <text x="290" y="-4" text-anchor="end" font-family="monospace" font-size="11" fill="#8fb8c9">training loss</text>
+  </g>
+
+  <line x1="44" y1="138" x2="1156" y2="138" stroke="#22d3ee" stroke-opacity="0.15"/>
+
+  <!-- Skills -->
+  <g font-family="monospace">
+    <g fill="none" stroke="#00ffaa" stroke-width="2">
+      <rect x="44" y="164" width="20" height="20" rx="4"/><rect x="44" y="219" width="20" height="20" rx="4"/>
+      <rect x="44" y="274" width="20" height="20" rx="4"/><rect x="44" y="329" width="20" height="20" rx="4"/>
+      <rect x="624" y="164" width="20" height="20" rx="4"/><rect x="624" y="219" width="20" height="20" rx="4"/>
+      <rect x="624" y="274" width="20" height="20" rx="4"/><rect x="624" y="329" width="20" height="20" rx="4"/>
+      <path d="M49 174 l4 4 l7 -8 M49 229 l4 4 l7 -8 M49 284 l4 4 l7 -8 M49 339 l4 4 l7 -8 M629 174 l4 4 l7 -8 M629 229 l4 4 l7 -8 M629 284 l4 4 l7 -8 M629 339 l4 4 l7 -8"/>
+    </g>
+    <g font-size="17" fill="#e6e9f5">
+      <text x="76" y="180">Backend Architecture</text>
+      <text x="76" y="235">REST API Development</text>
+      <text x="76" y="290">Fullstack Web Applications</text>
+      <text x="76" y="345">Database Optimization</text>
+      <text x="656" y="180">AI &amp; Computer Vision Systems</text>
+      <text x="656" y="235">Production-Ready Engineering</text>
+      <text x="656" y="290">Scalable Backend Infrastructure</text>
+      <text x="656" y="345">Clean Architecture Pattern</text>
+    </g>
+    <g font-size="12" fill="#00ffaa" text-anchor="end">
+      <text x="564" y="180">loaded</text><text x="564" y="235">loaded</text><text x="564" y="290">loaded</text><text x="564" y="345">loaded</text>
+      <text x="1156" y="180">loaded</text><text x="1156" y="235">loaded</text><text x="1156" y="290">loaded</text><text x="1156" y="345">loaded</text>
+    </g>
+    <!-- Progress tracks -->
+    <g fill="#22d3ee" fill-opacity="0.1">
+      <rect x="44" y="192" width="520" height="6" rx="3"/><rect x="44" y="247" width="520" height="6" rx="3"/>
+      <rect x="44" y="302" width="520" height="6" rx="3"/><rect x="44" y="357" width="520" height="6" rx="3"/>
+      <rect x="624" y="192" width="532" height="6" rx="3"/><rect x="624" y="247" width="532" height="6" rx="3"/>
+      <rect x="624" y="302" width="532" height="6" rx="3"/><rect x="624" y="357" width="532" height="6" rx="3"/>
+    </g>
+    <g fill="url(#cfill)" filter="url(#cglow)">
+      <rect x="44" y="192" width="520" height="6" rx="3"><animate attributeName="width" values="0;520" dur="1.2s" fill="freeze"/></rect>
+      <rect x="44" y="247" width="520" height="6" rx="3"><animate attributeName="width" values="0;0;520" keyTimes="0;0.2;1" dur="1.5s" fill="freeze"/></rect>
+      <rect x="44" y="302" width="520" height="6" rx="3"><animate attributeName="width" values="0;0;520" keyTimes="0;0.33;1" dur="1.8s" fill="freeze"/></rect>
+      <rect x="44" y="357" width="520" height="6" rx="3"><animate attributeName="width" values="0;0;520" keyTimes="0;0.43;1" dur="2.1s" fill="freeze"/></rect>
+      <rect x="624" y="192" width="532" height="6" rx="3"><animate attributeName="width" values="0;0;532" keyTimes="0;0.1;1" dur="1.35s" fill="freeze"/></rect>
+      <rect x="624" y="247" width="532" height="6" rx="3"><animate attributeName="width" values="0;0;532" keyTimes="0;0.27;1" dur="1.65s" fill="freeze"/></rect>
+      <rect x="624" y="302" width="532" height="6" rx="3"><animate attributeName="width" values="0;0;532" keyTimes="0;0.38;1" dur="1.95s" fill="freeze"/></rect>
+      <rect x="624" y="357" width="532" height="6" rx="3"><animate attributeName="width" values="0;0;532" keyTimes="0;0.47;1" dur="2.25s" fill="freeze"/></rect>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="16" fill="none" stroke="#22d3ee" stroke-opacity="0.22"/>
+</svg>

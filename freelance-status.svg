@@ -1,0 +1,95 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Freelance status: open for collaboration. Backend Development, Fullstack Web Development, AI and Computer Vision Projects, Dashboard and Admin Systems, REST API Engineering, Software Engineering Collaboration, Production System Development">
+  <title>Freelance Status — Agent Radar</title>
+  <defs>
+    <linearGradient id="fbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a1c"/>
+      <stop offset="55%" stop-color="#2a1030"/>
+      <stop offset="100%" stop-color="#0f0a1a"/>
+    </linearGradient>
+    <radialGradient id="radarbg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ffaa" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00ffaa" stop-opacity="0.02"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffaa" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#00ffaa" stop-opacity="0.45"/>
+    </linearGradient>
+    <pattern id="fdots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ff4d8d" fill-opacity="0.16"/>
+    </pattern>
+    <filter id="fglow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="380" rx="16" fill="url(#fbg)"/>
+  <rect width="1200" height="380" rx="16" fill="url(#fdots)"/>
+
+  <path d="M16 0 H1184 A16 16 0 0 1 1200 16 V44 H0 V16 A16 16 0 0 1 16 0 Z" fill="#ff4d8d" fill-opacity="0.1"/>
+  <circle cx="28" cy="22" r="6" fill="#ff5f56"/><circle cx="48" cy="22" r="6" fill="#ffbd2e"/><circle cx="68" cy="22" r="6" fill="#27c93f"/>
+  <text x="600" y="27" text-anchor="middle" font-family="monospace" font-size="13" fill="#d8a9c6">agent.status — freelance.service</text>
+
+  <g font-family="monospace">
+    <!-- Status badge -->
+    <rect x="44" y="66" width="340" height="46" rx="23" fill="#00ffaa" fill-opacity="0.12" stroke="#00ffaa" stroke-opacity="0.8"/>
+    <circle cx="72" cy="89" r="7" fill="#00ffaa" filter="url(#fglow)">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="72" cy="89" r="7" fill="none" stroke="#00ffaa">
+      <animate attributeName="r" values="7;16" dur="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="92" y="96" font-size="18" font-weight="bold" fill="#00ffaa">OPEN FOR COLLABORATION</text>
+    <text x="408" y="95" font-size="14" fill="#d8a9c6">agent.available = <tspan fill="#00ffaa">true</tspan></text>
+
+    <!-- Services -->
+    <g fill="#ffffff" fill-opacity="0.03" stroke="#ff4d8d" stroke-opacity="0.3">
+      <rect x="44" y="140" width="370" height="40" rx="10"/><rect x="434" y="140" width="370" height="40" rx="10"/>
+      <rect x="44" y="192" width="370" height="40" rx="10"/><rect x="434" y="192" width="370" height="40" rx="10"/>
+      <rect x="44" y="244" width="370" height="40" rx="10"/><rect x="434" y="244" width="370" height="40" rx="10"/>
+      <rect x="44" y="296" width="370" height="40" rx="10"/>
+    </g>
+    <g fill="#ff4d8d" fill-opacity="0.2" stroke="#ff4d8d">
+      <circle cx="66" cy="160" r="10"/><circle cx="456" cy="160" r="10"/>
+      <circle cx="66" cy="212" r="10"/><circle cx="456" cy="212" r="10"/>
+      <circle cx="66" cy="264" r="10"/><circle cx="456" cy="264" r="10"/>
+      <circle cx="66" cy="316" r="10"/>
+    </g>
+    <path d="M61 160 l4 4 l6 -7 M451 160 l4 4 l6 -7 M61 212 l4 4 l6 -7 M451 212 l4 4 l6 -7 M61 264 l4 4 l6 -7 M451 264 l4 4 l6 -7 M61 316 l4 4 l6 -7" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <g font-size="16" fill="#f5e6ef">
+      <text x="88" y="166">Backend Development</text>
+      <text x="478" y="166">Fullstack Web Development</text>
+      <text x="88" y="218">AI / Computer Vision Projects</text>
+      <text x="478" y="218">Dashboard &amp; Admin Systems</text>
+      <text x="88" y="270">REST API Engineering</text>
+      <text x="478" y="270">Software Engineering Collaboration</text>
+      <text x="88" y="322">Production System Development</text>
+    </g>
+    <text x="440" y="322" font-size="14" fill="#d8a9c6">&gt; let's build something <tspan fill="#ff4d8d">great</tspan></text>
+  </g>
+
+  <!-- Radar -->
+  <g transform="translate(1010 205)">
+    <circle r="130" fill="url(#radarbg)" stroke="#00ffaa" stroke-opacity="0.5"/>
+    <g fill="none" stroke="#00ffaa" stroke-opacity="0.25">
+      <circle r="87"/><circle r="43"/>
+      <path d="M-130 0 H130 M0 -130 V130"/>
+    </g>
+    <g>
+      <path d="M0 0 L130 0 A130 130 0 0 0 91.9 -91.9 Z" fill="url(#sweep)"/>
+      <line x1="0" y1="0" x2="130" y2="0" stroke="#00ffaa" stroke-width="2" filter="url(#fglow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </g>
+    <g fill="#ff4d8d" filter="url(#fglow)">
+      <circle cx="55" cy="-60" r="5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="-70" cy="-30" r="5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" begin="1.3s" repeatCount="indefinite"/></circle>
+      <circle cx="-25" cy="80" r="5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" begin="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="85" cy="45" r="5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" begin="3s" repeatCount="indefinite"/></circle>
+    </g>
+    <circle r="4" fill="#00ffaa"/>
+    <text y="160" text-anchor="middle" font-family="monospace" font-size="13" fill="#d8a9c6">scanning for new projects...</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="16" fill="none" stroke="#ff4d8d" stroke-opacity="0.25"/>
+</svg>

@@ -1,0 +1,87 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="About me: I build scalable backend systems, modern fullstack applications, and AI-powered solutions focused on real-world problem solving.">
+  <title>About Me — AI Assistant</title>
+  <defs>
+    <linearGradient id="abg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120c2a"/>
+      <stop offset="55%" stop-color="#231a52"/>
+      <stop offset="100%" stop-color="#0e1026"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </radialGradient>
+    <pattern id="adots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#a78bfa" fill-opacity="0.18"/>
+    </pattern>
+    <filter id="aglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="380" rx="16" fill="url(#abg)"/>
+  <rect width="1200" height="380" rx="16" fill="url(#adots)"/>
+
+  <!-- Title bar -->
+  <path d="M16 0 H1184 A16 16 0 0 1 1200 16 V44 H0 V16 A16 16 0 0 1 16 0 Z" fill="#a78bfa" fill-opacity="0.12"/>
+  <circle cx="28" cy="22" r="6" fill="#ff5f56"/><circle cx="48" cy="22" r="6" fill="#ffbd2e"/><circle cx="68" cy="22" r="6" fill="#27c93f"/>
+  <text x="600" y="27" text-anchor="middle" font-family="monospace" font-size="13" fill="#b9b3e0">assistant.chat — yogi-llm</text>
+
+  <!-- User prompt -->
+  <rect x="40" y="62" width="400" height="40" rx="12" fill="#a78bfa" fill-opacity="0.16" stroke="#a78bfa" stroke-opacity="0.4"/>
+  <text x="60" y="88" font-family="monospace" font-size="15" fill="#e6e9f5"><tspan fill="#a78bfa">user &gt;</tspan> tell me about yourself</text>
+
+  <!-- AI response -->
+  <rect x="40" y="118" width="740" height="236" rx="14" fill="#0b1024" fill-opacity="0.75" stroke="#67e8f9" stroke-opacity="0.3"/>
+  <g font-family="monospace">
+    <text x="64" y="150" font-size="15" fill="#67e8f9" font-weight="bold">yogi-ai &gt;</text>
+    <g font-size="17" fill="#e6e9f5">
+      <text x="64" y="182">I build scalable backend systems, modern fullstack<animate attributeName="opacity" values="0;1" dur="0.6s" fill="freeze"/></text>
+      <text x="64" y="208">applications, and AI-powered solutions focused on<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.55;1" dur="1.3s" fill="freeze"/></text>
+      <text x="64" y="234">real-world problem solving.<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.67;1" dur="1.8s" fill="freeze"/></text>
+    </g>
+    <rect x="345" y="220" width="9" height="17" fill="#67e8f9">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="64" y="268" font-size="14" fill="#9aa4c7">Specialized in:</text>
+    <g font-size="14" fill="#e6e9f5">
+      <rect x="64" y="280" width="196" height="30" rx="15" fill="#67e8f9" fill-opacity="0.1" stroke="#67e8f9" stroke-opacity="0.5"/>
+      <text x="162" y="300" text-anchor="middle">Backend Architecture</text>
+      <rect x="272" y="280" width="196" height="30" rx="15" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.55"/>
+      <text x="370" y="300" text-anchor="middle">REST API Development</text>
+      <rect x="480" y="280" width="213" height="30" rx="15" fill="#f472b6" fill-opacity="0.1" stroke="#f472b6" stroke-opacity="0.5"/>
+      <text x="586" y="300" text-anchor="middle">Fullstack Applications</text>
+      <rect x="64" y="318" width="196" height="30" rx="15" fill="#00ffaa" fill-opacity="0.1" stroke="#00ffaa" stroke-opacity="0.5"/>
+      <text x="162" y="338" text-anchor="middle">AI &amp; Computer Vision</text>
+      <rect x="272" y="318" width="255" height="30" rx="15" fill="#fbbf24" fill-opacity="0.1" stroke="#fbbf24" stroke-opacity="0.5"/>
+      <text x="399" y="338" text-anchor="middle">Scalable Production Systems</text>
+    </g>
+  </g>
+
+  <!-- AI core orb -->
+  <g transform="translate(990 200)">
+    <circle r="150" fill="url(#aura)"/>
+    <g fill="none" stroke="#a78bfa" stroke-opacity="0.45" stroke-width="1.5">
+      <ellipse rx="115" ry="36"/>
+      <ellipse rx="115" ry="36" transform="rotate(60)"/>
+      <ellipse rx="115" ry="36" transform="rotate(120)"/>
+    </g>
+    <g filter="url(#aglow)">
+      <circle r="5" fill="#67e8f9"><animateMotion dur="5s" repeatCount="indefinite" path="M-115 0 A115 36 0 1 1 115 0 A115 36 0 1 1 -115 0"/></circle>
+      <g transform="rotate(60)"><circle r="5" fill="#f472b6"><animateMotion dur="6.5s" repeatCount="indefinite" path="M115 0 A115 36 0 1 1 -115 0 A115 36 0 1 1 115 0"/></circle></g>
+      <g transform="rotate(120)"><circle r="5" fill="#00ffaa"><animateMotion dur="4.2s" repeatCount="indefinite" path="M-115 0 A115 36 0 1 0 115 0 A115 36 0 1 0 -115 0"/></circle></g>
+      <circle r="38" fill="url(#core)">
+        <animate attributeName="r" values="35;41;35" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text y="8" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#1e1b4b">AI</text>
+    <text y="160" text-anchor="middle" font-family="monospace" font-size="12" fill="#b9b3e0" letter-spacing="2">NEURAL CORE · ONLINE</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="16" fill="none" stroke="#a78bfa" stroke-opacity="0.25"/>
+</svg>

@@ -14,34 +14,17 @@
 
 # ░▒▓█ 🧠 ABOUT ME █▓▒░
 
-```txt
-I build scalable backend systems,
-modern fullstack applications,
-and AI-powered solutions focused on
-real-world problem solving.
-
-Specialized in:
-- Backend Architecture
-- REST API Development
-- Fullstack Applications
-- AI & Computer Vision
-- Scalable Production Systems
-```
+<p align="center">
+  <img src="./about-me.svg" width="100%" alt="About me: I build scalable backend systems, modern fullstack applications, and AI-powered solutions" />
+</p>
 
 ---
 
 # ░▒▓█ 💻 CORE EXPERTISE █▓▒░
 
-```txt
-[✓] Backend Architecture
-[✓] REST API Development
-[✓] Fullstack Web Applications
-[✓] Database Optimization
-[✓] AI & Computer Vision Systems
-[✓] Production-Ready Engineering
-[✓] Scalable Backend Infrastructure
-[✓] Clean Architecture Pattern
-```
+<p align="center">
+  <img src="./core-expertise.svg" width="100%" alt="Core expertise: Backend Architecture, REST API, Fullstack, Database Optimization, AI &amp; Computer Vision, Clean Architecture" />
+</p>
 
 ---
 
@@ -140,47 +123,25 @@ Specialized in:
 
 # ░▒▓█ 🔥 ACTIVE PROJECTS █▓▒░
 
-```txt
-> Smart POS System
-> AI Automation Dashboard
-> REST API Backend Services
-> YOLO Computer Vision Research
-> Fullstack Admin Dashboard
-> Inventory & Warehouse Systems
-> AI Integration Projects
-```
+<p align="center">
+  <img src="./active-projects.svg" width="100%" alt="Active projects: Smart POS, AI Automation Dashboard, REST API Services, YOLO CV Research, Admin Dashboard, Inventory Systems, AI Integration" />
+</p>
 
 ---
 
 # ░▒▓█ 🌐 BACKEND API DEVELOPMENT █▓▒░
 
-```yaml
-features:
-  - JWT Authentication
-  - Clean Architecture
-  - Modular Structure
-  - API Integration
-  - Database Optimization
-  - Production Workflow
-  - Scalable System Design
-  - Dockerized Environment
-```
+<p align="center">
+  <img src="./backend-api.svg" width="100%" alt="Backend API features: JWT Auth, Clean Architecture, Modular Structure, API Integration, DB Optimization, Dockerized" />
+</p>
 
 ---
 
 # ░▒▓█ 💼 FREELANCE STATUS █▓▒░
 
-```txt
-[OPEN FOR COLLABORATION]
-
-✔ Backend Development
-✔ Fullstack Web Development
-✔ AI / Computer Vision Projects
-✔ Dashboard & Admin Systems
-✔ REST API Engineering
-✔ Software Engineering Collaboration
-✔ Production System Development
-```
+<p align="center">
+  <img src="./freelance-status.svg" width="100%" alt="Freelance: open for collaboration — Backend, Fullstack, AI/CV, Dashboards, REST API, Production Systems" />
+</p>
 
 ---
 
