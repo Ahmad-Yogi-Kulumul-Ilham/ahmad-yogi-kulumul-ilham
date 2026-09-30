@@ -39,17 +39,8 @@
 # ░▒▓█ 📊 GITHUB ANALYTICS █▓▒░
 
 <p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yogicodee&theme=tokyonight"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yogicodee&theme=tokyonight"/>
+  <img src="https://raw.githubusercontent.com/yogicodee/yogicodee/output/github-analytics.svg" width="100%" alt="GitHub analytics: contributions, streaks, weekly activity and top languages" />
 </p>
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yogicodee&theme=tokyonight&hide_border=true"/>
-</p>
-
-<!--<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=yogicodee&theme=tokyonight&row=1&column=6"/>
-</p>-->
 
 ---
 
