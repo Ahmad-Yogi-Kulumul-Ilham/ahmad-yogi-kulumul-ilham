@@ -50,6 +50,8 @@
 
 <img src="https://img.shields.io/badge/DART-111111?style=for-the-badge&logo=dart&logoColor=0175C2"/>
 
+<img src="https://img.shields.io/badge/GO-111111?style=for-the-badge&logo=go&logoColor=00ADD8"/>
+
 </p>
 
 ---
