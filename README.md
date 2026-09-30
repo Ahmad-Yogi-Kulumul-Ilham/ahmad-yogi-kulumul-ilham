@@ -1,13 +1,8 @@
 <h1 align="center">Ahmad Yogi Kulumul Ilham</h1>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=18&pause=1000&color=00FFAA&center=true&vCenter=true&width=1200&lines=FULLSTACK+DEVELOPER;AI+AUTOMATION+ENGINEER;COMPUTER+VISION+RESEARCHER" />
+  <img src="./system-banner-final.svg" width="100%" />
 </p>
-
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=SYSTEM%20INITIALIZED&fontSize=40&fontColor=00FFAA&animation=fadeIn&fontAlignY=38"/>
-</p>
----
 
 # ░▒▓█ 🚀 SYSTEM PROFILE █▓▒░
 
