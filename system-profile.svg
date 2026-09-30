@@ -1,0 +1,101 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="System profile: Ahmad Yogi Kulumul Ilham, Software Engineer, Backend and Fullstack Development, AI Automation and Computer Vision, Indonesia">
+  <title>Ahmad Yogi Kulumul Ilham — System Profile</title>
+  <defs>
+    <linearGradient id="pbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#1a1840"/>
+      <stop offset="100%" stop-color="#101428"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffaa" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0.10"/>
+    </linearGradient>
+    <radialGradient id="brain" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="pgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00ffaa" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <filter id="pglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Window -->
+  <rect width="1200" height="360" rx="16" fill="url(#pbg)"/>
+  <rect width="1200" height="360" rx="16" fill="url(#pgrid)"/>
+  <ellipse cx="1000" cy="200" rx="260" ry="170" fill="url(#brain)"/>
+
+  <!-- Title bar -->
+  <path d="M16 0 H1184 A16 16 0 0 1 1200 16 V44 H0 V16 A16 16 0 0 1 16 0 Z" fill="url(#bar)"/>
+  <circle cx="28" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="22" r="6" fill="#27c93f"/>
+  <text x="600" y="27" text-anchor="middle" font-family="monospace" font-size="13" fill="#9aa4c7">yogi@ai-core: ~/profile — neural-shell</text>
+  <text x="1172" y="27" text-anchor="end" font-family="monospace" font-size="12" fill="#00ffaa" opacity="0.8">● ONLINE
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Neural network -->
+  <g stroke="#00ffaa" stroke-width="1" opacity="0.22">
+    <path d="M860 120 L960 90 M860 120 L960 160 M860 120 L960 230 M860 120 L960 300
+             M860 200 L960 90 M860 200 L960 160 M860 200 L960 230 M860 200 L960 300
+             M860 280 L960 90 M860 280 L960 160 M860 280 L960 230 M860 280 L960 300
+             M960 90 L1060 125 M960 90 L1060 200 M960 90 L1060 275
+             M960 160 L1060 125 M960 160 L1060 200 M960 160 L1060 275
+             M960 230 L1060 125 M960 230 L1060 200 M960 230 L1060 275
+             M960 300 L1060 125 M960 300 L1060 200 M960 300 L1060 275
+             M1060 125 L1140 200 M1060 200 L1140 200 M1060 275 L1140 200"/>
+  </g>
+  <!-- Signals flowing through the network -->
+  <g fill="none" stroke="#00ffaa" stroke-width="2" stroke-linecap="round" filter="url(#pglow)" stroke-dasharray="14 400">
+    <path d="M860 120 L960 160 L1060 200 L1140 200"><animate attributeName="stroke-dashoffset" values="414;0" dur="2.6s" repeatCount="indefinite"/></path>
+    <path d="M860 280 L960 230 L1060 125 L1140 200" stroke="#7c5cff"><animate attributeName="stroke-dashoffset" values="414;0" dur="3.2s" begin="0.8s" repeatCount="indefinite"/></path>
+    <path d="M860 200 L960 90 L1060 275 L1140 200"><animate attributeName="stroke-dashoffset" values="414;0" dur="3.8s" begin="1.5s" repeatCount="indefinite"/></path>
+  </g>
+  <g filter="url(#pglow)">
+    <g fill="#0b1020" stroke="#00ffaa" stroke-width="2">
+      <circle cx="860" cy="120" r="7"/><circle cx="860" cy="200" r="7"/><circle cx="860" cy="280" r="7"/>
+      <circle cx="960" cy="90" r="7"/><circle cx="960" cy="160" r="7"/><circle cx="960" cy="230" r="7"/><circle cx="960" cy="300" r="7"/>
+      <circle cx="1060" cy="125" r="7" stroke="#7c5cff"/><circle cx="1060" cy="200" r="7" stroke="#7c5cff"/><circle cx="1060" cy="275" r="7" stroke="#7c5cff"/>
+    </g>
+    <circle cx="1140" cy="200" r="11" fill="#00ffaa">
+      <animate attributeName="r" values="9;13;9" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g font-family="monospace" font-size="11" fill="#9aa4c7" text-anchor="middle" opacity="0.7">
+    <text x="860" y="330">INPUT</text>
+    <text x="960" y="330">HIDDEN</text>
+    <text x="1060" y="330">HIDDEN</text>
+    <text x="1140" y="236">OUTPUT</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="780" y1="70" x2="780" y2="320" stroke="#00ffaa" stroke-opacity="0.12" stroke-dasharray="4 6"/>
+
+  <!-- Terminal content -->
+  <g font-family="monospace" font-size="17">
+    <text x="44" y="88" fill="#e6e9f5"><tspan fill="#ff5f8a">&gt;</tspan> booting developer profile<tspan fill="#00ffaa">...</tspan></text>
+
+    <g>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" dur="1.2s" fill="freeze"/>
+      <text x="44" y="130"><tspan fill="#00ffaa">Name</tspan><tspan x="190" fill="#7c5cff">:</tspan><tspan x="210" fill="#e6e9f5">Ahmad Yogi Kulumul Ilham</tspan></text>
+      <text x="44" y="158"><tspan fill="#00ffaa">Role</tspan><tspan x="190" fill="#7c5cff">:</tspan><tspan x="210" fill="#e6e9f5">Software Engineer</tspan></text>
+      <text x="44" y="186"><tspan fill="#00ffaa">Speciality</tspan><tspan x="190" fill="#7c5cff">:</tspan><tspan x="210" fill="#e6e9f5">Backend <tspan fill="#ff5f8a">&amp;</tspan> Fullstack Development</tspan></text>
+      <text x="44" y="214"><tspan fill="#00ffaa">Focus</tspan><tspan x="190" fill="#7c5cff">:</tspan><tspan x="210" fill="#e6e9f5">AI Automation <tspan fill="#ff5f8a">&amp;</tspan> Computer Vision</tspan></text>
+      <text x="44" y="242"><tspan fill="#00ffaa">Status</tspan><tspan x="190" fill="#7c5cff">:</tspan><tspan x="210" fill="#e6e9f5">Building scalable production systems...</tspan></text>
+      <text x="44" y="270"><tspan fill="#00ffaa">Location</tspan><tspan x="190" fill="#7c5cff">:</tspan><tspan x="210" fill="#e6e9f5">Indonesia</tspan></text>
+      <text x="44" y="298"><tspan fill="#00ffaa">Experience</tspan><tspan x="190" fill="#7c5cff">:</tspan><tspan x="210" fill="#e6e9f5">Backend • AI • Fullstack Engineering</tspan></text>
+    </g>
+
+    <text x="44" y="334" fill="#00ffaa">$ <tspan fill="#9aa4c7">model.status()</tspan> <tspan fill="#e6e9f5">→ ready</tspan></text>
+    <rect x="310" y="320" width="10" height="18" fill="#00ffaa">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Border -->
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="16" fill="none" stroke="#00ffaa" stroke-opacity="0.2"/>
+</svg>

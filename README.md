@@ -6,17 +6,10 @@
 
 # ░▒▓█ 🚀 SYSTEM PROFILE █▓▒░
 
-```bash
-> booting developer profile...
+<p align="center">
+  <img src="./system-profile.svg" width="100%" alt="Name: Ahmad Yogi Kulumul Ilham | Role: Software Engineer | Speciality: Backend &amp; Fullstack Development | Focus: AI Automation &amp; Computer Vision | Location: Indonesia" />
+</p>
 
-Name        : Ahmad Yogi Kulumul Ilham
-Role        : Software Engineer
-Speciality  : Backend & Fullstack Development
-Focus       : AI Automation & Computer Vision
-Status      : Building scalable production systems...
-Location    : Indonesia
-Experience  : Backend • AI • Fullstack Engineering
-```
 ---
 
 # ░▒▓█ 🧠 ABOUT ME █▓▒░
