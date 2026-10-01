@@ -283,7 +283,7 @@ def render(user, data):
 
 def main():
     if sys.argv[1] == "--sample":
-        user, data, out = "yogicodee", sample(), sys.argv[2]
+        user, data, out = "Ahmad-Yogi-Kulumul-Ilham", sample(), sys.argv[2]
     else:
         user, out = sys.argv[1], sys.argv[2]
         data = fetch(user, os.environ["GITHUB_TOKEN"])

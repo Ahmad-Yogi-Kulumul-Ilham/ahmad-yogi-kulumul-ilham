@@ -39,7 +39,7 @@
 # ░▒▓█ 📊 GITHUB ANALYTICS █▓▒░
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yogicodee/yogicodee/output/github-analytics.svg" width="100%" alt="GitHub analytics: contributions, streaks, weekly activity and top languages" />
+  <img src="https://raw.githubusercontent.com/Ahmad-Yogi-Kulumul-Ilham/ahmad-yogi-kulumul-ilham/output/github-analytics.svg" width="100%" alt="GitHub analytics: contributions, streaks, weekly activity and top languages" />
 </p>
 
 ---
@@ -72,16 +72,16 @@
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yogicodee/yogicodee/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yogicodee/yogicodee/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/yogicodee/yogicodee/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ahmad-Yogi-Kulumul-Ilham/ahmad-yogi-kulumul-ilham/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ahmad-Yogi-Kulumul-Ilham/ahmad-yogi-kulumul-ilham/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Ahmad-Yogi-Kulumul-Ilham/ahmad-yogi-kulumul-ilham/output/pacman-contribution-graph.svg">
 </picture>
 </p>
 
 ---
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=yogicodee&label=PROFILE+VIEWS&color=00ffaa&style=for-the-badge"/>
+<img src="https://komarev.com/ghpvc/?username=Ahmad-Yogi-Kulumul-Ilham&label=PROFILE+VIEWS&color=00ffaa&style=for-the-badge"/>
 </p>
 
 <p align="center">

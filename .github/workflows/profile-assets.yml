@@ -25,15 +25,15 @@ jobs:
       - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: yogicodee
+          github_user_name: Ahmad-Yogi-Kulumul-Ilham
 
       - name: Generate github-analytics.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python .github/scripts/github_analytics.py yogicodee dist/github-analytics.svg
+        run: python3 .github/scripts/github_analytics.py Ahmad-Yogi-Kulumul-Ilham dist/github-analytics.svg
 
       - name: Push to output branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
