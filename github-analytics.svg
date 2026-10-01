@@ -1,5 +1,5 @@
-<svg width="1200" height="580" viewBox="0 0 1200 580" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub analytics for yogicodee: 1,292 total contributions, current streak 4 days, longest streak 49 days">
-<title>GitHub Analytics — yogicodee</title>
+<svg width="1200" height="580" viewBox="0 0 1200 580" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub analytics for Ahmad-Yogi-Kulumul-Ilham: 1,297 total contributions, current streak 6 days, longest streak 49 days">
+<title>GitHub Analytics — Ahmad-Yogi-Kulumul-Ilham</title>
 <defs>
   <linearGradient id="gbg" x1="0%" y1="0%" x2="100%" y2="100%">
     <stop offset="0%" stop-color="#0b1020"/><stop offset="50%" stop-color="#1a1840"/><stop offset="100%" stop-color="#0d1226"/>
@@ -21,22 +21,22 @@
 <rect width="1200" height="580" rx="16" fill="url(#ggrid)"/>
 <path d="M16 0 H1184 A16 16 0 0 1 1200 16 V44 H0 V16 A16 16 0 0 1 16 0 Z" fill="#00ffaa" fill-opacity="0.08"/>
 <circle cx="28" cy="22" r="6" fill="#ff5f56"/><circle cx="48" cy="22" r="6" fill="#ffbd2e"/><circle cx="68" cy="22" r="6" fill="#27c93f"/>
-<text x="600" y="27" text-anchor="middle" font-family="monospace" font-size="13" fill="#9aa4c7">analytics.dashboard — github.com/yogicodee</text>
-<g font-family="monospace" font-size="11" fill="#00ffaa" text-anchor="end"><text x="1172" y="26">● SYNCED 2026-09-30<animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/></text></g>
+<text x="600" y="27" text-anchor="middle" font-family="monospace" font-size="13" fill="#9aa4c7">analytics.dashboard — github.com/Ahmad-Yogi-Kulumul-Ilham</text>
+<g font-family="monospace" font-size="11" fill="#00ffaa" text-anchor="end"><text x="1172" y="26">● SYNCED 2026-10-01<animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/></text></g>
 <g><animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.10s" fill="freeze"/>
 <rect x="44" y="64" width="208" height="112" rx="12" fill="#0b1024" fill-opacity="0.7" stroke="#00ffaa" stroke-opacity="0.45"/>
 <rect x="44" y="64" width="4" height="112" rx="2" fill="#00ffaa"/>
 <text x="64" y="90" font-family="monospace" font-size="11" letter-spacing="1" fill="#9aa4c7">TOTAL CONTRIBUTIONS</text>
-<text x="64" y="136" font-family="monospace" font-size="36" font-weight="bold" fill="#00ffaa" filter="url(#gglow)">1,292</text>
+<text x="64" y="136" font-family="monospace" font-size="36" font-weight="bold" fill="#00ffaa" filter="url(#gglow)">1,297</text>
 <text x="64" y="160" font-family="monospace" font-size="11" fill="#c7cde6">since Jun 2020</text>
 </g>
 <g><animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.22s" fill="freeze"/>
 <rect x="270" y="64" width="208" height="112" rx="12" fill="#0b1024" fill-opacity="0.7" stroke="#ff9f1c" stroke-opacity="0.45"/>
 <rect x="270" y="64" width="4" height="112" rx="2" fill="#ff9f1c"/>
 <text x="290" y="90" font-family="monospace" font-size="11" letter-spacing="1" fill="#9aa4c7">CURRENT STREAK</text>
-<text x="290" y="136" font-family="monospace" font-size="36" font-weight="bold" fill="#ff9f1c" filter="url(#gglow)">4</text>
+<text x="290" y="136" font-family="monospace" font-size="36" font-weight="bold" fill="#ff9f1c" filter="url(#gglow)">6</text>
 <text x="318" y="136" font-family="monospace" font-size="14" fill="#9aa4c7">days</text>
-<text x="290" y="160" font-family="monospace" font-size="11" fill="#c7cde6">Sep 26 – Sep 29</text>
+<text x="290" y="160" font-family="monospace" font-size="11" fill="#c7cde6">Sep 26 – Oct 01</text>
 </g>
 <g><animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.34s" fill="freeze"/>
 <rect x="496" y="64" width="208" height="112" rx="12" fill="#0b1024" fill-opacity="0.7" stroke="#a78bfa" stroke-opacity="0.45"/>
@@ -50,7 +50,7 @@
 <rect x="722" y="64" width="208" height="112" rx="12" fill="#0b1024" fill-opacity="0.7" stroke="#22d3ee" stroke-opacity="0.45"/>
 <rect x="722" y="64" width="4" height="112" rx="2" fill="#22d3ee"/>
 <text x="742" y="90" font-family="monospace" font-size="11" letter-spacing="1" fill="#9aa4c7">COMMITS 2026</text>
-<text x="742" y="136" font-family="monospace" font-size="36" font-weight="bold" fill="#22d3ee" filter="url(#gglow)">568</text>
+<text x="742" y="136" font-family="monospace" font-size="36" font-weight="bold" fill="#22d3ee" filter="url(#gglow)">571</text>
 <text x="742" y="160" font-family="monospace" font-size="11" fill="#c7cde6">this year</text>
 </g>
 <g><animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.58s" fill="freeze"/>
@@ -58,7 +58,7 @@
 <rect x="948" y="64" width="4" height="112" rx="2" fill="#f472b6"/>
 <text x="968" y="90" font-family="monospace" font-size="11" letter-spacing="1" fill="#9aa4c7">PUBLIC REPOS</text>
 <text x="968" y="136" font-family="monospace" font-size="36" font-weight="bold" fill="#f472b6" filter="url(#gglow)">68</text>
-<text x="968" y="160" font-family="monospace" font-size="11" fill="#c7cde6">★ 582 stars · 62 followers</text>
+<text x="968" y="160" font-family="monospace" font-size="11" fill="#c7cde6">★ 582 stars · 61 followers</text>
 </g>
 <rect x="44" y="196" width="720" height="360" rx="12" fill="#0b1024" fill-opacity="0.6" stroke="#00ffaa" stroke-opacity="0.2"/>
 <text x="64" y="226" font-family="monospace" font-size="14" font-weight="bold" fill="#e6e9f5">contribution.activity<tspan fill="#9aa4c7" font-weight="normal"> · last 52 weeks</tspan></text>
@@ -130,25 +130,25 @@
 <text x="689.8" y="532" font-family="monospace" font-size="10" fill="#9aa4c7">Sep</text>
 <rect x="702.7" y="327.1" width="9.9" height="184.9" rx="2" fill="url(#gbar)" fill-opacity="1"><animate attributeName="height" values="0;0;184.9" keyTimes="0;0.551;1" dur="1.73s" fill="freeze"/><animate attributeName="y" values="512;512;327.1" keyTimes="0;0.551;1" dur="1.73s" fill="freeze"/></rect>
 <rect x="715.7" y="375.4" width="9.9" height="136.6" rx="2" fill="url(#gbar)" fill-opacity="1"><animate attributeName="height" values="0;0;136.6" keyTimes="0;0.556;1" dur="1.75s" fill="freeze"/><animate attributeName="y" values="512;512;375.4" keyTimes="0;0.556;1" dur="1.75s" fill="freeze"/></rect>
-<rect x="728.6" y="474.2" width="9.9" height="37.8" rx="2" fill="url(#gbar)" fill-opacity="1"><animate attributeName="height" values="0;0;37.8" keyTimes="0;0.560;1" dur="1.77s" fill="freeze"/><animate attributeName="y" values="512;512;474.2" keyTimes="0;0.560;1" dur="1.77s" fill="freeze"/></rect>
-<polygon points="74.5,512 74.5,512.0 87.4,512.0 100.3,512.0 113.2,512.0 126.2,512.0 139.1,512.0 152.0,512.0 164.9,512.0 177.8,512.0 190.8,512.0 203.7,512.0 216.6,495.2 229.5,512.0 242.5,512.0 255.4,512.0 268.3,512.0 281.2,512.0 294.2,512.0 307.1,512.0 320.0,501.5 332.9,463.7 345.8,478.4 358.8,499.4 371.7,501.5 384.6,501.5 397.5,491.0 410.5,476.3 423.4,444.8 436.3,478.4 449.2,423.8 462.2,463.7 475.1,400.7 488.0,379.6 500.9,425.9 513.8,444.8 526.8,415.4 539.7,421.7 552.6,400.7 565.5,423.8 578.5,262.0 591.4,396.5 604.3,432.2 617.2,453.2 630.2,428.0 643.1,434.3 656.0,444.8 668.9,428.0 681.8,455.3 694.8,362.8 707.7,327.1 720.6,375.4 733.5,474.2 733.5,512" fill="url(#garea)"/>
-<polyline points="74.5,512.0 87.4,512.0 100.3,512.0 113.2,512.0 126.2,512.0 139.1,512.0 152.0,512.0 164.9,512.0 177.8,512.0 190.8,512.0 203.7,512.0 216.6,495.2 229.5,512.0 242.5,512.0 255.4,512.0 268.3,512.0 281.2,512.0 294.2,512.0 307.1,512.0 320.0,501.5 332.9,463.7 345.8,478.4 358.8,499.4 371.7,501.5 384.6,501.5 397.5,491.0 410.5,476.3 423.4,444.8 436.3,478.4 449.2,423.8 462.2,463.7 475.1,400.7 488.0,379.6 500.9,425.9 513.8,444.8 526.8,415.4 539.7,421.7 552.6,400.7 565.5,423.8 578.5,262.0 591.4,396.5 604.3,432.2 617.2,453.2 630.2,428.0 643.1,434.3 656.0,444.8 668.9,428.0 681.8,455.3 694.8,362.8 707.7,327.1 720.6,375.4 733.5,474.2" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linejoin="round" filter="url(#gglow)" stroke-dasharray="4000" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="4000;0" dur="3s" fill="freeze"/></polyline>
+<rect x="728.6" y="463.7" width="9.9" height="48.3" rx="2" fill="url(#gbar)" fill-opacity="1"><animate attributeName="height" values="0;0;48.3" keyTimes="0;0.560;1" dur="1.77s" fill="freeze"/><animate attributeName="y" values="512;512;463.7" keyTimes="0;0.560;1" dur="1.77s" fill="freeze"/></rect>
+<polygon points="74.5,512 74.5,512.0 87.4,512.0 100.3,512.0 113.2,512.0 126.2,512.0 139.1,512.0 152.0,512.0 164.9,512.0 177.8,512.0 190.8,512.0 203.7,512.0 216.6,495.2 229.5,512.0 242.5,512.0 255.4,512.0 268.3,512.0 281.2,512.0 294.2,512.0 307.1,512.0 320.0,501.5 332.9,463.7 345.8,478.4 358.8,499.4 371.7,501.5 384.6,501.5 397.5,491.0 410.5,476.3 423.4,444.8 436.3,478.4 449.2,423.8 462.2,463.7 475.1,400.7 488.0,379.6 500.9,425.9 513.8,444.8 526.8,415.4 539.7,421.7 552.6,400.7 565.5,423.8 578.5,262.0 591.4,396.5 604.3,432.2 617.2,453.2 630.2,428.0 643.1,434.3 656.0,444.8 668.9,428.0 681.8,455.3 694.8,362.8 707.7,327.1 720.6,375.4 733.5,463.7 733.5,512" fill="url(#garea)"/>
+<polyline points="74.5,512.0 87.4,512.0 100.3,512.0 113.2,512.0 126.2,512.0 139.1,512.0 152.0,512.0 164.9,512.0 177.8,512.0 190.8,512.0 203.7,512.0 216.6,495.2 229.5,512.0 242.5,512.0 255.4,512.0 268.3,512.0 281.2,512.0 294.2,512.0 307.1,512.0 320.0,501.5 332.9,463.7 345.8,478.4 358.8,499.4 371.7,501.5 384.6,501.5 397.5,491.0 410.5,476.3 423.4,444.8 436.3,478.4 449.2,423.8 462.2,463.7 475.1,400.7 488.0,379.6 500.9,425.9 513.8,444.8 526.8,415.4 539.7,421.7 552.6,400.7 565.5,423.8 578.5,262.0 591.4,396.5 604.3,432.2 617.2,453.2 630.2,428.0 643.1,434.3 656.0,444.8 668.9,428.0 681.8,455.3 694.8,362.8 707.7,327.1 720.6,375.4 733.5,463.7" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linejoin="round" filter="url(#gglow)" stroke-dasharray="4000" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="4000;0" dur="3s" fill="freeze"/></polyline>
 <line x1="68" y1="512" x2="740" y2="512" stroke="#9aa4c7" stroke-opacity="0.35"/>
 <rect x="784" y="196" width="372" height="360" rx="12" fill="#0b1024" fill-opacity="0.6" stroke="#a78bfa" stroke-opacity="0.25"/>
 <text x="804" y="226" font-family="monospace" font-size="14" font-weight="bold" fill="#e6e9f5">language.model<tspan fill="#9aa4c7" font-weight="normal"> · by code size</tspan></text>
 <clipPath id="lclip"><rect x="804" y="244" width="332" height="10" rx="5"/></clipPath><g clip-path="url(#lclip)">
-<rect x="804.0" y="244" width="156.4" height="10" fill="#3178c6"/>
-<rect x="960.4" y="244" width="67.3" height="10" fill="#4F5D95"/>
+<rect x="804.0" y="244" width="156.3" height="10" fill="#3178c6"/>
+<rect x="960.3" y="244" width="67.3" height="10" fill="#4F5D95"/>
 <rect x="1027.6" y="244" width="21.0" height="10" fill="#b07219"/>
 <rect x="1048.6" y="244" width="16.2" height="10" fill="#3572A5"/>
 <rect x="1064.8" y="244" width="11.6" height="10" fill="#e34c26"/>
-<rect x="1076.4" y="244" width="11.4" height="10" fill="#f7523f"/>
+<rect x="1076.4" y="244" width="11.3" height="10" fill="#f7523f"/>
 <rect x="1087.8" y="244" width="48.2" height="10" fill="#9aa4c7" fill-opacity="0.3"/></g>
 <circle cx="809" cy="287" r="5" fill="#3178c6"/>
 <text x="822" y="292" font-family="monospace" font-size="14" fill="#e6e9f5">TypeScript</text>
 <text x="1136" y="292" text-anchor="end" font-family="monospace" font-size="13" fill="#9aa4c7">47.1%</text>
 <rect x="804" y="301" width="332" height="6" rx="3" fill="#9aa4c7" fill-opacity="0.12"/>
-<rect x="804" y="301" width="156.4" height="6" rx="3" fill="#3178c6" filter="url(#gglow)"><animate attributeName="width" values="0;156.4" dur="1.2s" fill="freeze"/></rect>
+<rect x="804" y="301" width="156.3" height="6" rx="3" fill="#3178c6" filter="url(#gglow)"><animate attributeName="width" values="0;156.3" dur="1.2s" fill="freeze"/></rect>
 <circle cx="809" cy="331" r="5" fill="#4F5D95"/>
 <text x="822" y="336" font-family="monospace" font-size="14" fill="#e6e9f5">PHP</text>
 <text x="1136" y="336" text-anchor="end" font-family="monospace" font-size="13" fill="#9aa4c7">20.3%</text>
@@ -173,6 +173,6 @@
 <text x="822" y="512" font-family="monospace" font-size="14" fill="#e6e9f5">Blade</text>
 <text x="1136" y="512" text-anchor="end" font-family="monospace" font-size="13" fill="#9aa4c7">3.4%</text>
 <rect x="804" y="521" width="332" height="6" rx="3" fill="#9aa4c7" fill-opacity="0.12"/>
-<rect x="804" y="521" width="11.4" height="6" rx="3" fill="#f7523f" filter="url(#gglow)"><animate attributeName="width" values="0;11.4" dur="1.2s" fill="freeze"/></rect>
+<rect x="804" y="521" width="11.3" height="6" rx="3" fill="#f7523f" filter="url(#gglow)"><animate attributeName="width" values="0;11.3" dur="1.2s" fill="freeze"/></rect>
 <rect x="0.5" y="0.5" width="1199" height="579" rx="16" fill="none" stroke="#00ffaa" stroke-opacity="0.2"/>
 </svg>
