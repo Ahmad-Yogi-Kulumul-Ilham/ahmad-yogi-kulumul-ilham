@@ -44,30 +44,6 @@
 
 ---
 
-# ░▒▓█ 🔥 ACTIVE PROJECTS █▓▒░
-
-<p align="center">
-  <img src="./active-projects.svg" width="100%" alt="Active projects: Smart POS, AI Automation Dashboard, REST API Services, YOLO CV Research, Admin Dashboard, Inventory Systems, AI Integration" />
-</p>
-
----
-
-# ░▒▓█ 🌐 BACKEND API DEVELOPMENT █▓▒░
-
-<p align="center">
-  <img src="./backend-api.svg" width="100%" alt="Backend API features: JWT Auth, Clean Architecture, Modular Structure, API Integration, DB Optimization, Dockerized" />
-</p>
-
----
-
-# ░▒▓█ 💼 FREELANCE STATUS █▓▒░
-
-<p align="center">
-  <img src="./freelance-status.svg" width="100%" alt="Freelance: open for collaboration — Backend, Fullstack, AI/CV, Dashboards, REST API, Production Systems" />
-</p>
-
----
-
 # ░▒▓█ 👾 CONTRIBUTION GRAPH █▓▒░
 
 <p align="center">
