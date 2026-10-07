@@ -178,7 +178,9 @@ def render(user, data):
     a(f"<title>GitHub Analytics — {escape(user)}</title>")
     a("""<defs>
   <linearGradient id="gbg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#0b1020"/><stop offset="50%" stop-color="#1a1840"/><stop offset="100%" stop-color="#0d1226"/>
+    <stop offset="0%" stop-color="#0b1020"><animate attributeName="stop-color" values="#0b1020;#131347;#0b1020" dur="12s" repeatCount="indefinite"/></stop>
+    <stop offset="50%" stop-color="#1a1840"><animate attributeName="stop-color" values="#1a1840;#261b5c;#1a1840" dur="12s" repeatCount="indefinite"/></stop>
+    <stop offset="100%" stop-color="#0d1226"><animate attributeName="stop-color" values="#0d1226;#0f1d42;#0d1226" dur="12s" repeatCount="indefinite"/></stop>
   </linearGradient>
   <linearGradient id="gbar" x1="0%" y1="100%" x2="0%" y2="0%">
     <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/><stop offset="100%" stop-color="#00ffaa"/>
@@ -188,6 +190,7 @@ def render(user, data):
   </linearGradient>
   <pattern id="ggrid" width="40" height="40" patternUnits="userSpaceOnUse">
     <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00ffaa" stroke-opacity="0.05"/>
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="40 40" dur="9s" repeatCount="indefinite"/>
   </pattern>
   <filter id="gglow" x="-50%" y="-50%" width="200%" height="200%">
     <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
@@ -208,11 +211,15 @@ def render(user, data):
     for i, (label, value, sub, color) in enumerate(tiles):
         x = 44 + i * (tw + gap)
         delay = 0.1 + i * 0.12
-        a(f'<g><animate attributeName="opacity" values="0;1" dur="0.6s" begin="{delay:.2f}s" fill="freeze"/>')
-        a(f'<rect x="{x}" y="64" width="{tw}" height="112" rx="12" fill="#0b1024" fill-opacity="0.7" stroke="{color}" stroke-opacity="0.45"/>')
-        a(f'<rect x="{x}" y="64" width="4" height="112" rx="2" fill="{color}"/>')
+        a(f'<g><animate attributeName="opacity" values="0;1" dur="0.6s" begin="{delay:.2f}s" fill="freeze"/>'
+          f'<animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="{4.5 + i * 0.4:.1f}s" begin="{delay:.2f}s" repeatCount="indefinite" additive="sum"/>')
+        a(f'<rect x="{x}" y="64" width="{tw}" height="112" rx="12" fill="#0b1024" fill-opacity="0.7" stroke="{color}" stroke-opacity="0.45">'
+          f'<animate attributeName="stroke-opacity" values="0.45;0.9;0.45" dur="{3.2 + i * 0.3:.1f}s" repeatCount="indefinite"/></rect>')
+        a(f'<rect x="{x}" y="64" width="4" height="112" rx="2" fill="{color}">'
+          f'<animate attributeName="opacity" values="0.5;1;0.5" dur="{2.4 + i * 0.3:.1f}s" repeatCount="indefinite"/></rect>')
         a(f'<text x="{x + 20}" y="90" font-family="monospace" font-size="11" letter-spacing="1" fill="#9aa4c7">{escape(label)}</text>')
-        a(f'<text x="{x + 20}" y="136" font-family="monospace" font-size="36" font-weight="bold" fill="{color}" filter="url(#gglow)">{escape(value)}</text>')
+        a(f'<text x="{x + 20}" y="136" font-family="monospace" font-size="36" font-weight="bold" fill="{color}" filter="url(#gglow)">{escape(value)}'
+          f'<animate attributeName="opacity" values="1;0.68;1" dur="{3.0 + i * 0.25:.1f}s" repeatCount="indefinite"/></text>')
         if label.endswith("STREAK"):
             a(f'<text x="{x + 26 + len(value) * 22}" y="136" font-family="monospace" font-size="14" fill="#9aa4c7">days</text>')
         a(f'<text x="{x + 20}" y="160" font-family="monospace" font-size="11" fill="#c7cde6">{escape(sub)}</text>')
@@ -249,6 +256,15 @@ def render(user, data):
     a(f'<polyline points="{line}" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linejoin="round" filter="url(#gglow)" '
       f'stroke-dasharray="4000" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="4000;0" dur="3s" fill="freeze"/></polyline>')
     a(f'<line x1="{cx0}" y1="{cy0}" x2="{cx0 + cw}" y2="{cy0}" stroke="#9aa4c7" stroke-opacity="0.35"/>')
+    # sweeping scanner line
+    a(f'<line x1="{cx0}" y1="{cy0 - ch}" x2="{cx0}" y2="{cy0}" stroke="#00ffaa" stroke-width="2" stroke-opacity="0.4" filter="url(#gglow)">'
+      f'<animate attributeName="x1" values="{cx0};{cx0 + cw}" dur="5s" repeatCount="indefinite"/>'
+      f'<animate attributeName="x2" values="{cx0};{cx0 + cw}" dur="5s" repeatCount="indefinite"/></line>')
+    # glowing dot travelling along the activity line
+    dot_path = "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in points)
+    a(f'<circle r="4.5" fill="#ffffff" filter="url(#gglow)">'
+      f'<animateMotion dur="6s" repeatCount="indefinite" path="{dot_path}"/>'
+      f'<animate attributeName="r" values="3.2;5.5;3.2" dur="1.6s" repeatCount="indefinite"/></circle>')
 
     # Top languages
     lx, ly, lw, lh = 784, 196, 372, 360
@@ -264,12 +280,16 @@ def render(user, data):
         w = bar_w * size / lang_total
         a(f'<rect x="{sx + off:.1f}" y="{ly + 48}" width="{w:.1f}" height="10" fill="{color}"/>')
         off += w
-    a(f'<rect x="{sx + off:.1f}" y="{ly + 48}" width="{max(0.0, bar_w - off):.1f}" height="10" fill="#9aa4c7" fill-opacity="0.3"/></g>')
+    a(f'<rect x="{sx + off:.1f}" y="{ly + 48}" width="{max(0.0, bar_w - off):.1f}" height="10" fill="#9aa4c7" fill-opacity="0.3"/>')
+    a(f'<rect x="{sx}" y="{ly + 48}" width="55" height="10" fill="#ffffff" fill-opacity="0.18">'
+      f'<animate attributeName="x" values="{sx - 55};{sx + bar_w}" dur="3.5s" repeatCount="indefinite"/></rect></g>')
     for i, (name, (size, color)) in enumerate(top):
         pct = 100 * size / lang_total
         y = ly + 96 + i * 44
         w = max(4.0, bar_w * pct / 100)
-        a(f'<circle cx="{sx + 5}" cy="{y - 5}" r="5" fill="{color}"/>')
+        a(f'<circle cx="{sx + 5}" cy="{y - 5}" r="5" fill="{color}" filter="url(#gglow)">'
+          f'<animate attributeName="r" values="5;6.8;5" dur="{2.0 + i * 0.25:.1f}s" repeatCount="indefinite"/>'
+          f'<animate attributeName="opacity" values="1;0.55;1" dur="{2.0 + i * 0.25:.1f}s" repeatCount="indefinite"/></circle>')
         a(f'<text x="{sx + 18}" y="{y}" font-family="monospace" font-size="14" fill="#e6e9f5">{escape(name)}</text>')
         a(f'<text x="{sx + bar_w}" y="{y}" text-anchor="end" font-family="monospace" font-size="13" fill="#9aa4c7">{pct:.1f}%</text>')
         a(f'<rect x="{sx}" y="{y + 9}" width="{bar_w}" height="6" rx="3" fill="#9aa4c7" fill-opacity="0.12"/>')
