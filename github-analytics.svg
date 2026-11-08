@@ -61,7 +61,7 @@
 <rect x="948" y="64" width="4" height="112" rx="2" fill="#f472b6"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.6s" repeatCount="indefinite"/></rect>
 <text x="968" y="90" font-family="monospace" font-size="11" letter-spacing="1" fill="#9aa4c7">PUBLIC REPOS</text>
 <text x="968" y="136" font-family="monospace" font-size="36" font-weight="bold" fill="#f472b6" filter="url(#gglow)">71<animate attributeName="opacity" values="1;0.68;1" dur="4.0s" repeatCount="indefinite"/></text>
-<text x="968" y="160" font-family="monospace" font-size="11" fill="#c7cde6">★ 582 stars · 72 followers</text>
+<text x="968" y="160" font-family="monospace" font-size="11" fill="#c7cde6">★ 582 stars · 73 followers</text>
 </g>
 <rect x="44" y="196" width="720" height="360" rx="12" fill="#0b1024" fill-opacity="0.6" stroke="#00ffaa" stroke-opacity="0.2"/>
 <text x="64" y="226" font-family="monospace" font-size="14" font-weight="bold" fill="#e6e9f5">contribution.activity<tspan fill="#9aa4c7" font-weight="normal"> · last 52 weeks</tspan></text>
